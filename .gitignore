@@ -1,0 +1,23 @@
+# Dependencies
+node_modules/
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# Build and deployment output
+dist/
+build/
+.vercel/
+.tanstack/
+artifacts/
+
+# Local databases / generated data
+*.db
+*.sqlite
+*.sqlite3
+
+# Logs
+*.log
+npm-debug.log*
